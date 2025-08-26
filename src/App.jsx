@@ -5,7 +5,7 @@ export default function App() {
 
   const increase = () => setCount(count + 1);
   const decrease = () => setCount(count - 1);
-  const reset = () => setCount(0);
+  const reset = () => setCount(2);
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
